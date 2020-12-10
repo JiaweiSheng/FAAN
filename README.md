@@ -58,6 +58,7 @@ python trainer.py --dataset wiki --embed_dim 50 --num_transformer_layers 4 --num
 
 If you find this code useful, pls cite our work:
 
+```
 @inproceedings{Sheng2020:FAAN,
   author    = {Jiawei Sheng and
                Shu Guo and
@@ -73,4 +74,4 @@ If you find this code useful, pls cite our work:
   publisher = {Association for Computational Linguistics},
   year      = {2020}
 }
-
+```
