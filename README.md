@@ -51,12 +51,26 @@ python trainer.py --weight_decay 0.0 --prefix nell.5shot_best --test
 #### Wiki
 
 ```
-python trainer.py --dataset wiki --embed_dim 50 --num_transformer_layers 4 --num_transformer_heads 8 --dropout_input 0.3 --dropout_layers 0.2 --lr 6e-5 --prefix wiki.5shot_best --test
+python trainer.py --dataset wiki --embed_dim 50 --num_transformer_layers 4 --num_transformer_heads 8 --dropout_input 0.3 --dropout_layers 0.2 --lr 6e-5 --prefix wiki.5shot --test
 ```
 
 # Citation
 
 If you find this code useful, pls cite our work:
 
-
+@inproceedings{Sheng2020:FAAN,
+  author    = {Jiawei Sheng and
+               Shu Guo and
+               Zhenyu Chen and
+               Juwei Yue and
+               Lihong Wang and
+               Tingwen Liu and
+               Hongbo Xu},
+  title     = {Adaptive Attentional Network for Few-Shot Knowledge Graph Completion},
+  booktitle = {Proceedings of the 2020 Conference on Empirical Methods in Natural
+               Language Processing, {EMNLP} 2020, Online, November 16-20, 2020},
+  pages     = {1681--1691},
+  publisher = {Association for Computational Linguistics},
+  year      = {2020}
+}
 
